@@ -1,0 +1,20 @@
+p {
+    font-size: 40px;
+    color: blue;
+}
+
+#title {
+    color: green;
+}
+
+.second-p {
+    color: skyblue
+}
+
+.new-p {
+    font-size: 20px;
+}
+
+.list {
+    list-style-type: "\1F600";
+}

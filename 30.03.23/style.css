@@ -1,0 +1,31 @@
+.red-cola {
+    color: red;
+    font-size: 100px;
+    color: #F40009;
+}
+
+.blue-fb {
+    /* hex */
+    color: #4267B2;
+    /* rgb */
+    color: rgb(66, 103, 178);
+    /* rgba */
+    /* color: rgb(66, 103, 178, 0.5); */
+    font-size: 80px;
+}
+
+.blue-fb:hover{
+    /* color: rgb(66, 103, 178, 0.5); */
+    color: #4267B280;
+}
+
+.red-cola,
+.blue-fb {
+    font-size: 70px;
+}
+
+.anchor-red:visited{
+    color: blue;
+}
+
+

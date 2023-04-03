@@ -23,3 +23,7 @@
 ### resources:
 - [w3schools](https://www.w3schools.com/tags/tag_img.asp)
 - [css-tricks](https://css-tricks.com/)
+
+### recording:
+
+[link](https://us02web.zoom.us/rec/share/gDxF6HvKO2ZF_mkbqWNvJKcVsryV0CgPOuRR7_-SsSj8ML2k4SOvFMnncOsBRjvZ.6n9rDuwdyPT4e0o9?startTime=1680506391000)

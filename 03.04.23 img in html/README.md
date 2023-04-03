@@ -15,6 +15,7 @@
 ## today:
 
 - linking images using absolute path [picsum](https://picsum.photos/)
+- linking images using relative path `src="../images/my-pic.jpg"`
 - adding alt and title
 - adding border and border radius
 - new css selectors (using [] and +)

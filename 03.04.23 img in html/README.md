@@ -18,7 +18,7 @@
 - linking images using relative path `src="../images/my-pic.jpg"`
 - adding alt and title
 - adding border and border radius
-- new css selectors (using [] and +)
+- new css selectors (using [ ] and +)
 
 ### resources:
 - [w3schools](https://www.w3schools.com/tags/tag_img.asp)

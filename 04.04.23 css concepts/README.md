@@ -78,3 +78,6 @@ div {
 ```
 
 the content of the `<p>` element will also be colored blue.
+
+
+**Note:** inline styling always win.

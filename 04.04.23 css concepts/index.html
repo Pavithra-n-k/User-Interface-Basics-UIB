@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #test-id{
+        color: green;
+      }
+      .test{
+        color: orange;
+      }
+      .test2{
+        color: fuchsia;
+      }
+      div {
+        color: red;
+      }
+
+      div {
+        color: blue;
+      }
+      ul {
+        /* By default these 2 properties are inherited by the children (<li>) */
+       list-style-type: none;
+       color: red;
+      }
+      #item-test {
+        /* This will cancel the inheritance and bring back the initial style */
+       list-style-type: initial; 
+       color: initial;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li id="item-test">item1</li>
+      <li>item2</li>
+      <li>item3</li>
+    </ul>
+    <div>hello</div>
+    <div class="test test2" id="test-id">test1</div>
+    <div class="test">test2</div>
+    <div class="test test2">test3</div>
+    <div style="color:rgb(186, 211, 85);">test4</div>
+  </body>
+</html>

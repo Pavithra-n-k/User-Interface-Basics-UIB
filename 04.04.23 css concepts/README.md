@@ -81,3 +81,7 @@ the content of the `<p>` element will also be colored blue.
 
 
 **Note:** inline styling always win.
+
+### recording:
+
+[link](https://us02web.zoom.us/rec/share/LRMEO1-dnDg3AAYtEHFC-fZs0H_FrpoOK8QbSh5jmR_W7wc68bEVvtN50c7ypZE.gyQJycyZc5BY6gsC)

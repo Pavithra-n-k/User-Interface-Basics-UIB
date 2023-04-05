@@ -2,7 +2,7 @@
 
 ## last week:
 
-- html template 
+- html template
 - css: inline, internal, external
 - lists: ordered, unordered
 - classes and IDs
@@ -21,6 +21,7 @@
 - new css selectors (using [ ] and +)
 
 ### resources:
+
 - [w3schools](https://www.w3schools.com/tags/tag_img.asp)
 - [css-tricks](https://css-tricks.com/)
 

@@ -4,18 +4,15 @@
 } */
 
 /* margin: top right bottom left */
-body {
-    /* margin: 10px 20px 30px 5px; */
-    /* top&bottom right&left */
-    /* margin: 10px 20px; */
-    margin: 0;
-}
+
 
 header {
     background-color: skyblue;
 }
-main{
+.container{
     background-color: orange;
+    height: 100vh;
+    width: 200vw;
 }
 footer{
     background-color: purple;

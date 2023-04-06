@@ -1,0 +1,15 @@
+p {color: red;}
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+
+.ex1, .ex2, .ex3, .ex4 {
+    border: 2px red solid;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+}

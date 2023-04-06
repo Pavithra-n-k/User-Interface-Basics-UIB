@@ -1,4 +1,4 @@
-# using images:
+# Box model I
 
 ## last day:
 
@@ -7,10 +7,10 @@
 ## today:
 
 - The main container
-- Difference between *padding*, *margin* & *border*
+- Difference between _padding_, _margin_ & _border_
 - Center with css width + margin:auto
 - Setting the height of an element in specific situations
-- Full height with *vh* unit
+- Full height with _vh_ unit
 - Overflow
 - Float
 - Block elements: `<section>`, `<article>`...

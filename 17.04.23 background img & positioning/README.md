@@ -27,3 +27,7 @@
 ## tomorrow:
 
 UIB Test-1
+
+## Recording:
+
+[link](https://us02web.zoom.us/rec/share/UsPA4dXMUdWr__yrT7pPG981JwFWqv19LEBi47A8_DKcUBAVr35klWgFHVOoFzwy.3S4iP9eNYnD3ZXMk)

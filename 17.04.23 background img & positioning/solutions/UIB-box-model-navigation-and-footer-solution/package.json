@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^10.4.0"
+  },
+  "jest": {
+    "testEnvironment": "puppeteer",
+    "preset": "jest-puppeteer"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-box-model-navigation-and-footer",
+    "id": 318125092
+  }
+}

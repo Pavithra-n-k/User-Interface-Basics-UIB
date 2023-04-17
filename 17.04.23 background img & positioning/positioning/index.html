@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 10px;
+      box-sizing: border-box;
+    }
+    #box1 {
+      position: static; /* this is the default position*/
+      height: 200px;
+      background-color: blue;
+      border: 1px solid black;
+    }
+    #box2 {
+      padding-top: 80px;
+      position: relative; /* relative to its own static position */
+      top: 40px;
+      left: 50px;
+      height: 200px;
+      background-color: rgb(255, 0, 0);
+      border: 1px solid black;
+    }
+    #box3 {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      margin-top: 50px;
+      height: 200px;
+      width: 50vw;
+      background-color: rgb(255, 255, 0);
+      border: 1px solid black;
+    }
+    #box4 {
+      height: 200px;
+      width: 400px;
+      background-color: rgb(0, 255, 255);
+      border: 1px solid black;
+    }
+    #box5 {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      height: 100px;
+      width: 200px;
+      background-color: rgb(55, 255, 0);
+      border: 1px solid black;
+    }
+    #box6 {
+      margin-top: 50px;
+      position: relative;
+      height: 400px;
+      width: 600px;
+      background-color: rgb(187, 0, 255);
+      border: 1px solid black;
+    }
+    #box7 {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      height: 200px;
+      width: 100px;
+      background-color: rgb(255, 166, 0);
+      border: 1px solid black;
+    }
+  </style>
+  <body>
+    <div>
+      <div>
+        <div id="box1">
+          This div is positioned statically (default positioning)
+        </div>
+        <div id="box2">
+          This div is positioned relatively to its own original (static)
+          position
+        </div>
+        <div id="box3">
+          This div is positioned absolutely relative to the body of the doc<br/>
+          (bc no ancestor has been positioned)
+        </div>
+      </div>
+    </div>
+    <div id="box6">
+      <div id="box4">
+        <div id="box7">This div is positioned This div is positioned absolutely relative to its first positioned ancestor (box6)</div>
+        <div id="box5">This div is positioned This div is positioned absolutely relative to its first positioned ancestor (box6)</div>
+      </div>
+    </div>
+  </body>
+</html>

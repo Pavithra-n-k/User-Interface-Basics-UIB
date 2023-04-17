@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 10px;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #box {
+        background: blue url(https://picsum.photos/500/400) no-repeat bottom left;
+        /* background-color: blue;
+        background-image: url(https://picsum.photos/500/400);
+        background-repeat: no-repeat; */
+        background-size: cover;
+        /* background-position: bottom; */
+        border: 1px solid black;
+        height: 40vh;
+      }
+
+      #box2 {
+        height: 40vh;
+        border: 1px solid black;
+      }
+      #box3{
+        height: 30vh;
+        border: 1px solid black;
+       background-image: linear-gradient( to right bottom, red 20%, yellow , green , blue, purple);
+      }
+      .content2{
+        display: inline-block;
+      }
+      img{
+        float: left;
+      }
+      body{
+        background-image: linear-gradient( red 20%, yellow , green , blue, purple);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">
+      <h1>Hello World</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolore,
+        minus iste culpa error corporis tenetur voluptas id exercitationem vitae
+        quos. Consequatur blanditiis ducimus sed quia illo cupiditate fugit nam?
+      </p>
+    </div>
+    <div id="box2">
+      <img
+        src="https://picsum.photos/500/400"
+        alt="random-pic"
+        title="random"
+      />
+      <h1 class="content2">Hello World</h1>
+      <p class="content2" style="width: 400px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolore,
+        minus iste culpa error corporis tenetur voluptas id exercitationem vitae
+        quos. Consequatur blanditiis ducimus sed quia illo cupiditate fugit nam?
+      </p>
+    </div>
+    <div id="box3"></div>
+  </body>
+</html>

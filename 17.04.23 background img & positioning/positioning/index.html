@@ -28,7 +28,7 @@
     }
     #box3 {
       position: absolute;
-      top: 30px;
+      top: 50px;
       right: 30px;
       margin-top: 50px;
       height: 200px;
@@ -44,7 +44,7 @@
     }
     #box5 {
       position: absolute;
-      bottom: 10px;
+      bottom: 30px;
       right: 10px;
       height: 100px;
       width: 200px;
@@ -68,6 +68,95 @@
       background-color: rgb(255, 166, 0);
       border: 1px solid black;
     }
+    #container {
+      position: relative;
+      border: 1px solid black;
+      border-radius: 30px;
+      width: 500px;
+      height: 500px;
+    }
+    #fixed-box {
+      height: 100px;
+      width: 100px;
+      color: #fff;
+      background-color: #000;
+      position: fixed;
+      top: 50px;
+      left: 70px;
+      z-index: 2;
+    }
+    #sticky-box {
+      position: sticky;
+      top: 0;
+      right: 0;
+      z-index: 1;
+      width: 100%;
+      height: 30px;
+      background-color: chartreuse;
+    }
+    .circle {
+        margin: 0;
+      height: 200px;
+      width: 200px;
+      border: 1px solid #000;
+      border-radius: 50%;
+    }
+    #c1 {
+      background-color: blue;
+      position: absolute;
+      left: 50%;
+      top: 5%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+    #c2{
+        background-color: green;
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        z-index: 1;
+    }
+    #c3{
+        background-color: yellow;
+        position: absolute;
+        top: 30%;
+        right:5% ;
+    }
+    #c4{
+        background-color: rgb(255, 145, 0);
+        position: absolute;
+        bottom: 15%;
+        right: 10%;
+        z-index: 1;
+    }
+    #c5 {
+      background-color: rgb(255, 0, 0);
+      position: absolute;
+      left: 50%;
+      bottom: 5%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+    #c6{
+        background-color: rgb(217, 0, 255);
+        position: absolute;
+        bottom: 15%;
+        left: 10%;
+        z-index: 1;
+    }
+    #c7{
+        background-color: rgb(115, 0, 255);
+        position: absolute;
+        top: 30%;
+        left:5% ;
+    }
+    #c8{
+        background-color: rgb(4, 242, 255);
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        z-index: 1;
+    }
   </style>
   <body>
     <div>
@@ -79,17 +168,54 @@
           This div is positioned relatively to its own original (static)
           position
         </div>
+        <div id="fixed-box">fixed box</div>
+
         <div id="box3">
-          This div is positioned absolutely relative to the body of the doc<br/>
+          This div is positioned absolutely relative to the body of the doc<br />
           (bc no ancestor has been positioned)
         </div>
       </div>
     </div>
+    <div id="sticky-box">this is sticky</div>
     <div id="box6">
       <div id="box4">
-        <div id="box7">This div is positioned This div is positioned absolutely relative to its first positioned ancestor (box6)</div>
-        <div id="box5">This div is positioned This div is positioned absolutely relative to its first positioned ancestor (box6)</div>
+        <div id="box7">
+          This div is positioned absolutely relative to its first positioned
+          ancestor (box6)
+        </div>
+        <div id="box5">
+          This div is positioned absolutely relative to its first positioned
+          ancestor (box6)
+        </div>
       </div>
     </div>
+    <div id="container">
+      <div class="circle" id="c1"></div>
+      <div class="circle" id="c2"></div>
+      <div class="circle" id="c3"></div>
+      <div class="circle" id="c4"></div>
+      <div class="circle" id="c5"></div>
+      <div class="circle" id="c6"></div>
+      <div class="circle" id="c7"></div>
+      <div class="circle" id="c8"></div>
+    </div>
+    <p style="font-size: 25px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi, ut
+      voluptatem possimus autem repellat voluptatum labore sunt aliquam, aliquid
+      quae aperiam eveniet doloribus eum exercitationem ad facilis, in nobis!
+      Natus sint veritatis quaerat ipsam quas recusandae eum accusantium vitae
+      cupiditate. Culpa vero expedita dolorem ab libero quae quam beatae
+      voluptas natus, quasi debitis ea amet voluptate, unde ipsam. Voluptatibus!
+      Deleniti unde, corrupti vitae voluptatum impedit architecto aliquid
+      dolorem iure sed quos nostrum, quasi quisquam iste ut reiciendis,
+      dignissimos ratione. Magni sed, nihil asperiores optio quisquam neque quod
+      expedita? Quo. Dolor repellendus ullam similique iure sed rem
+      perspiciatis, optio aut adipisci, repellat tempora explicabo ea recusandae
+      error quisquam facere quidem eos. Expedita alias corrupti placeat,
+      distinctio dolore mollitia omnis illum. Fuga illum modi ratione nisi
+      quaerat doloribus ipsam, exercitationem totam architecto deleniti quam
+      numquam quo qui excepturi inventore asperiores ducimus minus atque? Rerum
+      reprehenderit officia quod impedit eaque similique maxime.
+    </p>
   </body>
 </html>

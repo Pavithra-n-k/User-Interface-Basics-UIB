@@ -32,9 +32,9 @@
 
 ### exercises
 
-Ex1: [Check this site and try to improve it](https://userinyerface.com/)
-Ex2: [UIB-typography-inline](https://classroom.github.com/a/muxHdipY)
-Ex3: [UIB-typography-font_family](https://classroom.github.com/a/qABkmFKV)
+- Ex1: [Check this site and try to improve it](https://userinyerface.com/)
+- Ex2: [UIB-typography-inline](https://classroom.github.com/a/muxHdipY)
+- Ex3: [UIB-typography-font_family](https://classroom.github.com/a/qABkmFKV)
 
 ### recording:
 

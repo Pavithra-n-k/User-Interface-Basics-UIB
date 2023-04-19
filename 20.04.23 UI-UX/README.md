@@ -13,7 +13,7 @@
 - Direction and alignment: `direction: rtl;`, `text-align` (& difference between center and justify)
 - Stylish text:
   - Thicker text with css `font-weight`, choosing font weights on google fonts
-  - Italics with css `font-style`
+  - Italics with css `font-style`<
   - Underline and line-through with css `text-decoration`
   - Changing case with css `text-transform`
   - Adding shadow and stroking text with css `text-shadow`
@@ -31,9 +31,9 @@
 
 ### exercises
 
-Ex1: [UIB-typography-text](https://classroom.github.com/a/xtX9X6Wb)
-Ex2: [UIB-typography-textstyling](https://classroom.github.com/a/xvFq9elJ)
-Ex3: [UIB-UI-UX-typography](https://classroom.github.com/a/xY-6-je0)
+- Ex1: [UIB-typography-text](https://classroom.github.com/a/xtX9X6Wb)
+- Ex2: [UIB-typography-textstyling](https://classroom.github.com/a/xvFq9elJ)
+- Ex3: [UIB-UI-UX-typography](https://classroom.github.com/a/xY-6-je0)
 
 ### recording:
 

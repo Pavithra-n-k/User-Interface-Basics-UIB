@@ -38,4 +38,4 @@ Ex3: [UIB-typography-font_family](https://classroom.github.com/a/qABkmFKV)
 
 ### recording:
 
-[link]()
+[link](https://us02web.zoom.us/rec/share/i4ChhdgxFa-Xt4YcYv2Z4y71NhuFDRbGwv4VOrq2N1Xoja8Jqace7V0u9zYXrzTd._CGFXCiYi-_0ZfwD)

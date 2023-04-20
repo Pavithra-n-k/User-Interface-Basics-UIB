@@ -40,3 +40,20 @@ p {
 .italic-roboto {
     font-style: italic;
 }
+.decorated-text {
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+.cool-text {
+    font-size: 1.6em;
+    /* text-shadow: x-axis y-axis blur color; */
+   text-shadow: 5px 2px blue;
+}
+
+.cool-text::before{
+    content: url(img/puppy.jpg)
+}
+
+p::after{
+    content:"✨";
+}

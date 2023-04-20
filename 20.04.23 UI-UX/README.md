@@ -26,15 +26,16 @@
 - [rtl](https://www.w3schools.com/cssref/pr_text_direction.php)
 - [text-align](https://www.w3schools.com/cssref/tryit.php?filename=trycss_text-align)
 - [center vs justify](https://fonts.google.com/knowledge/glossary/alignment_justification)
-- []()
+- [before/after](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
 - []()
 
 ### exercises
 
-- Ex1: [UIB-typography-text](https://classroom.github.com/a/xtX9X6Wb)
-- Ex2: [UIB-typography-textstyling](https://classroom.github.com/a/xvFq9elJ)
-- Ex3: [UIB-UI-UX-typography](https://classroom.github.com/a/xY-6-je0)
+- Ex1: [UIB-typography-text](https://classroom.github.com/a/RCfbHwIa)
+- Ex2: [UIB-typography-textstyling](https://classroom.github.com/a/FLT4BLrG)
+- Ex3: [UIB-UI-UX-typography](https://classroom.github.com/a/CGslRp4Z)
+- Ex4: Create a birthday card template with HTML and CSS. So just by changing a couple elements you can use it with different people. Be creative and have fun!
 
 ### recording:
 
-[link]()
+[link](https://us02web.zoom.us/rec/share/ev94MAMzmMXfMV7janmQtEIG96zL1ocPa5CUBwgwrvhHE63xNhl-WOAsM761A8U.YlcfGiSu7uXnaZuu)

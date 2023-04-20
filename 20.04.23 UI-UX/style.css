@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+:root {
+    font-size: 16px;
+}
+
+p {
+    /* font-size: 20px; */
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+
+.beautiful-section {
+    font-size: 24px;
+}
+
+.beautiful-words {
+    background-color: orange;
+    /* adding a 50% increment to the root size */
+    font-size: 1.5em; 
+    font-size: 1.5rem;
+}
+
+.arabic-invite {
+    direction: rtl;
+}
+
+.pav-invitation {
+    text-align: left;
+    margin: 0 200px;
+}
+
+.relevant-part {
+    font-weight: 700;
+}
+
+.irrelevant-part {
+    font-weight: 300;
+}
+
+.italic-roboto {
+    font-style: italic;
+}

@@ -7,32 +7,147 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
   <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    :root{
+        --primary: green;
+        --secondary: blue;
+        --danger: rgb(255, 123, 0);
+        --my-color: blue;
+        
+    }
+
     #icon-box {
       font-size: 60px;
       color: brown;
     }
-    #box2{
-        font-size: 100px;
-        color: red;
+    #box2 {
+      font-size: 100px;
+      color: var(--danger);
+    }
+    .fa-sun {
+      color: rgb(255, 230, 0);
+      cursor: pointer;
+    }
+    footer {
+      font-size: 40px;
+      height: 10vh;
+      color: var(--secondary);
+      background-color: var(--primary);
+      text-align: center;
+      padding-top: 30px;
+    }
+    main {
+      height: 83vh;
+    }
+    header {
+      padding: 25px;
+      height: 7vh;
+      background-color: var(--primary);
+      color: var(--secondary);
+    }
+    nav {
+      display: inline;
+      margin-left: 50%;
+    }
+    .nav-btn {
+      margin: 20px;
+    }
+    a {
+      color: var(--secondary);
+    }
+    a:active {
+      color: var(--danger);
+    }
+    #menu-box {
+      display: inline;
+      position: relative;
+      cursor: pointer;
+    }
+    #menu-box:hover .icon-list {
+      display: block;
+    }
+    #menu-box:hover .fa-bars {
+      color: #42e222;
+    }
+    .icon-list {
+      position: absolute;
+      background-color: cadetblue;
+      padding: 10px;
+      top: 20px;
+      left: 0;
+      display: none;
+    }
+    li {
+      padding: 3px;
     }
   </style>
   <body>
-    
-    <div id="box1">
-      Hello World
-      <span id="icon-box">
-        <i class="fa-solid fa-sun"></i> <i class="fa-regular fa-sun fa-beat-fade"></i>
-        <i class="fa-solid fa-house fa-fade"></i>
-      </span>
-    </div>
-    <i>this is italic</i>
-    <div id="box2">   
-      <i class="fa-solid fa-heart fa-beat"></i>
-      <i class="fa-solid fa-spinner fa-spin-pulse"></i>
-    </div>
+    <header>
+      <span>Logo</span>
+      <nav>
+        <span class="nav-btn"> <a href="#"> Home</a></span>
+        <span class="nav-btn"><a href="#"> contacts</a></span>
+        <span class="nav-btn"> <a href="#">products</a></span>
+      </nav>
+      <div id="menu-box">
+        <i class="fa-solid fa-bars"></i>
+        <div class="icon-list">
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check"></i></span>check
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i
+                  class="fa-solid fa-circle-check fa-bounce"
+                  style="color: #42e222"
+                ></i></span
+              >circle-check
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-square-check"></i></span
+              >square-check
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-cart-shopping fa-spin-pulse"></i></span
+              >shopping-cart
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-check-double fa-beat"></i></span
+              >double check
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="box1">
+        Hello World
+        <span id="icon-box">
+          <i class="fa-solid fa-sun"></i>
+          <i class="fa-regular fa-sun fa-beat-fade"></i>
+          <i class="fa-solid fa-house fa-fade"></i>
+        </span>
+      </div>
+      <i>this is italic</i>
+      <div id="box2">
+        <i class="fa-solid fa-heart fa-beat"></i>
+        <i class="fa-solid fa-spinner fa-spin-pulse"></i>
+      </div>
+    </main>
+    <footer>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-facebook"></i>
+    </footer>
   </body>
 </html>

@@ -12,7 +12,7 @@
 
 **Afternoon:**
 
-1 exercise + Self-study: Alternatives to Fontawesome - flaticon, thenounproject.com / revisiting old exercises / researching portfolios 
+1 exercise + Self-study: Alternatives to Fontawesome - flaticon, thenounproject.com, material design icons, ionic icons / revisiting old exercises / researching portfolios 
 
 ## tomorrow:
 

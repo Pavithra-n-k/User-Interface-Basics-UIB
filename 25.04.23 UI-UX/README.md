@@ -12,9 +12,9 @@
 - Use of HSL to create accent colors
 - Typography (how to calculate the size of our titles, our blocks, etc.)
 - `box-shadow`
-    - box-shadow: left to right ,  top to bottom, blur, color*/
-        example: box-shadow: 20px 20px 20px var(--primary);
-    - Inset to create the shadow inside the box
+  - box-shadow: left to right , top to bottom, blur, color\*/
+    example: box-shadow: 20px 20px 20px var(--primary);
+  - Inset to create the shadow inside the box
 - Important to have design systems for consistency
 
 ### resources:
@@ -26,13 +26,12 @@
 - [GRT Calculator](https://grtcalculator.com/)
 - [Box-shadow documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
-
 ### exercises
 
-- Ex1: []()
-- Ex2: []()
-- Ex3: []()
+- Ex1: [UIB-UI-UX-NoNamePeople-Page](https://classroom.github.com/a/SZXvvMT2)
+- Ex2: [UIB-UI-UX-Elevation](https://classroom.github.com/a/JZ2lwZ45)
+- Ex3: [UIB-UI-UX-glassmorphic-profile-card](https://classroom.github.com/a/MCUFcFlz)
 
 ### recording:
 
-[link]()
+[link](https://us02web.zoom.us/rec/share/374BnvXy7B-pHn1EMMeTii404yD5Zcf6xgp6ailPynib3v9zQtXe0zCtGThQNfV6.X9TMCKCpdKi8AdzN)

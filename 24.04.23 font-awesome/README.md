@@ -14,6 +14,11 @@
 
 1 exercise + Self-study: Alternatives to Fontawesome - flaticon, thenounproject.com, material design icons, ionic icons / revisiting old exercises / researching portfolios 
 
+**Recording:**
+
+[link](https://us02web.zoom.us/rec/share/XQAEJMGExJnfApNdB86wnJXr24fLuvKV787osCQetMxORfFWXaP8nQAM1Tx8RnQF.VZYxA8E9bmSpJPd2)
+
 ## tomorrow:
 
 color & box shadow
+

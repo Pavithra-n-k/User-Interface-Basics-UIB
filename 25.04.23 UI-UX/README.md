@@ -24,6 +24,8 @@
 - [Accessibility check for color II](https://webaim.org/resources/contrastchecker/)
 - [More about HSL](https://blog.webdevsimplified.com/2021-06/hsl-color-format/)
 - [GRT Calculator](https://grtcalculator.com/)
+- [More info about GRT](https://pearsonified.com/golden-ratio-typography-intro/)
+- [A way of calculating size of headers without GRT](http://zuga.net/articles/html-heading-elements/)
 - [Box-shadow documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
 ### exercises

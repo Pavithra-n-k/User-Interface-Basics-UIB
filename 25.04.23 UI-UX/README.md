@@ -19,6 +19,7 @@
 
 ### resources:
 
+- [Color palettes for inspiration](https://colorhunt.co/)
 - [Psicology of color](https://www.flux-academy.com/blog/the-psychology-of-color-how-valuable-web-designers-choose-colors)
 - [Accessibility check for color I](https://webaim.org/resources/contrastchecker/)
 - [Accessibility check for color II](https://webaim.org/resources/contrastchecker/)

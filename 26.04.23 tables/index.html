@@ -70,37 +70,39 @@
       }
       table{
         margin: 10px;
+        caption-side: top;
       }
     </style>
   </head>
   <body>
     <table>
+        <caption>Example table</caption>
       <tr>
-        <th>HEADER1</th>
-        <th>HEADER2</th>
-        <th>HEADER3</th>
-        <th>HEADER4</th>
+        <th scope="col">HEADER1</th>
+        <th scope="col">HEADER2</th>
+        <th scope="col">HEADER3</th>
+        <th scope="col">HEADER4</th>
       </tr>
       <tr>
-        <th>item1</th>
+        <th scope="row">item1</th>
         <td>item2</td>
         <td>item3</td>
         <td>item4</td>
       </tr>
       <tr>
-        <th>item5</th>
+        <th scope="row">item5</th>
         <td><img src="https://picsum.photos/200/200" /></td>
         <td>item7</td>
         <td>item8</td>
       </tr>
       <tr>
-        <th>item9</th>
+        <th scope="row">item9</th>
         <td>item10</td>
         <td>item10</td>
         <td>item11</td>
       </tr>
       <tr>
-        <th>item12</th>
+        <th scope="row">item12</th>
         <td>item13</td>
         <td>item14</td>
         <td class="example">item15</td>
@@ -108,8 +110,8 @@
     </table>
     <table>
       <tr>
-        <th colspan="2">HEADER1</th>
-        <th>HEADER2</th>
+        <th scope="col" colspan="2">HEADER1</th>
+        <th scope="col">HEADER2</th>
       </tr>
       <tr>
         <td rowspan="2">test</td>

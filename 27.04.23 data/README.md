@@ -13,6 +13,7 @@
 - Checkbox, radio, textarea, optgroup, datalist
 - pseudoclasses `:valid`, `:invalid`
 - HTML form controls: `required`, `minlength` & `maxlength`, `min` & `max`, `type`, `pattern` attributes
+- The `placeholder` attribute
 
 ### resources:
 
@@ -20,7 +21,16 @@
 - [form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 - [action attribute](https://www.w3schools.com/tags/att_form_action.asp)
 - [POST/GET](https://www.w3schools.com/tags/att_form_method.asp)
-- []()
+- [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+- [`type=""radio""`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
+- [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+- [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
+- [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- [`<input type=""file"">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
+- [`:invalid`](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+- [`<datalist>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
+- [`<optgroup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
+
 
 ### exercises
 

@@ -19,6 +19,8 @@
       }
       input {
         margin-bottom: 10px;
+        border: none;
+        background-color: bisque;
       }
 
       input::placeholder {
@@ -33,9 +35,9 @@
         color: gray;
         background-color: rgb(232, 245, 220);
       }
-      textarea:disabled{
+      textarea:disabled {
         color: aqua;
-background-color: cadetblue;
+        background-color: cadetblue;
       }
     </style>
   </head>
@@ -65,7 +67,16 @@ background-color: cadetblue;
       <input type="text" value="this input field is read-only" readonly />
       <br />
       <label> testing disabled inputs:</label>
-      <textarea name="comments" id="" cols="20" rows="5" placeholder="Tell us about important colors, etc." disabled>this text area is disabled</textarea>
+      <textarea
+        name="comments"
+        id=""
+        cols="20"
+        rows="5"
+        placeholder="Tell us about important colors, etc."
+        disabled
+      >
+this text area is disabled</textarea
+      >
       <br />
       <label>
         <input type="checkbox" value="option1" checked />
@@ -75,7 +86,7 @@ background-color: cadetblue;
         <input type="checkbox" value="option2" checked />
         option2
       </label>
-
+      <br />
       <button>submit</button>
     </form>
   </body>

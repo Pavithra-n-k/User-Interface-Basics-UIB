@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      form {
+        margin: 30px auto;
+        border: 1px solid black;
+        width: 50%;
+        text-align: center;
+        padding: 50px 20px;
+        border-radius: 20px;
+      }
+      input {
+        margin-bottom: 10px;
+      }
+
+      input::placeholder {
+        color: darksalmon;
+      }
+
+      input[type="text"]:focus,
+      input[type="email"]:focus {
+        outline: 3px solid green;
+      }
+      input:read-only {
+        color: gray;
+        background-color: rgb(232, 245, 220);
+      }
+      textarea:disabled{
+        color: aqua;
+background-color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="username"> Username: </label><br />
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="enter your username..."
+      />
+      <br />
+      <label for="email"> Email: </label><br />
+      <input placeholder="test" type="email" name="email" id="email" />
+      <br />
+      <label for="password"> Password: </label><br />
+      <input
+        placeholder="test2"
+        type="password"
+        name="password"
+        id="password"
+      />
+      <br />
+      <label for="test">test field:</label>
+      <br />
+      <input type="text" value="this input field is read-only" readonly />
+      <br />
+      <label> testing disabled inputs:</label>
+      <textarea name="comments" id="" cols="20" rows="5" placeholder="Tell us about important colors, etc." disabled>this text area is disabled</textarea>
+      <br />
+      <label>
+        <input type="checkbox" value="option1" checked />
+        option1
+      </label>
+      <label>
+        <input type="checkbox" value="option2" checked />
+        option2
+      </label>
+
+      <button>submit</button>
+    </form>
+  </body>
+</html>

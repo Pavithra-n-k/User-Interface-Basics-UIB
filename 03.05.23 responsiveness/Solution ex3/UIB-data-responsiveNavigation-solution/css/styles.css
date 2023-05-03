@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62,5%;
+  --lightBlue: #5eccdf;
+  --salmon: #e9967a;
+}
+
+html,
+body,
+main {
+  height: 100%; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  margin: 0 0 2rem 0;
+}
+
+/* NAVIGATION START */
+
+header {
+  position: relative;
+}
+
+header input {
+  display: none;
+}
+
+header label span {
+  padding: 1rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+header label span.icon {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+header label span::before {
+  content: "\f0c9";
+}
+
+header nav {
+  display: block;
+}
+
+header nav li {
+  display: block;
+  padding: 1rem;
+  background-color: var(--salmon);
+}
+header li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+header nav li:hover {
+  background: var(--lightBlue);
+}
+
+header nav {
+  display: none;
+}
+
+header input:checked ~ nav {
+  display: block;
+}
+
+header input:checked + label span::before {
+  content: "\f00d";
+}
+/* NAVIGATION STOP */
+
+/* PARALLAX START */
+
+.parallax {
+  position: relative;
+  min-height: 100%; /* Works because all parents ()have height 100% */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg1 {
+  background-image: url(../images/bg1.jpg);
+}
+
+.centerEl{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.centerEl span {
+    background:var(--lightBlue);
+    padding: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+@media (min-width: 576px) {
+  header {
+    text-align: left;
+  }
+
+  header label span.icon {
+    display: none;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  header nav li {
+    display: inline-block;
+  }
+}

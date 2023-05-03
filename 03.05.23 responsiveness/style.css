@@ -1,0 +1,27 @@
+body {
+    color: black;
+}
+h2 {
+    display: none;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1180px and up) */
+@media (min-width: 1200px) {
+    body {
+    background-color: grey;
+    color: white;
+    background-image: none;
+    }
+    h1 {
+        visibility: hidden;
+    }
+    h2 {
+        display: block;
+    }
+}

@@ -21,9 +21,9 @@
 ### exercises
 
 - Ex1: [UIB-responsiveness-mediaqueries](https://classroom.github.com/a/jQM1qjw9)
-- Ex2: []()
-- Ex3: []()
+- Ex2: [UIB-responsiveness-mediaqueries2](https://classroom.github.com/a/Pu0wW1kS)
+- Ex3: [UIB-data-responsiveNavigation](https://classroom.github.com/a/IoWFLNUM)
 
 ### recording:
 
-[link]()
+[link](https://us02web.zoom.us/rec/share/Q3v4tyZl_HxibfUY0odUlF8DTJSrxDZL8dWV3vyWEeEMy1hHfL6nTvXtfUOXmmVg.NXpiFOtaXysA9WtY)

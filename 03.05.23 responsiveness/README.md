@@ -27,3 +27,4 @@
 ### recording:
 
 [link](https://us02web.zoom.us/rec/share/Q3v4tyZl_HxibfUY0odUlF8DTJSrxDZL8dWV3vyWEeEMy1hHfL6nTvXtfUOXmmVg.NXpiFOtaXysA9WtY)
+[solution exercise 1](https://us02web.zoom.us/rec/share/V8GApTCiHM1yNk3jk7Hs3XO0_9TcXztu-eFe-bAL8vonS07H1Bxl_qOWuXDAiE86.OTnfSHAs_7DvRXK2)

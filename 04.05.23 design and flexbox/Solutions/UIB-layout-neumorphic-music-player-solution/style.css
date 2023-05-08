@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  max-width: 50rem;
+  margin: 3rem auto;
+  border: 1px solid #dbdbdb88;
+  border-radius: 12px;
+  background-color: #e4e2e2;
+  box-shadow: 20px 20px 60px #c8c8c8, -20px -20px 60px #ffffff;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header div {
+  margin: 2rem;
+  border-radius: 7px;
+  background: #e0e0e0;
+  box-shadow: inset 7px 7px 14px #cccccc, inset -7px -7px 14px #f4f4f4;
+}
+
+.section-header div:first-child {
+  color: #313131;
+}
+
+.section-header div:last-child {
+  color: #ff0800;
+}
+
+.section-header i {
+  font-size: 3rem;
+  margin: 1.6rem;
+  padding: 8px;
+}
+
+.section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.section-main > h2 {
+  padding: 1.6rem 0;
+  font-weight: 400;
+}
+
+.section-main > h4 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  color: #6c6d6eda;
+}
+
+.section-main img {
+  height: 32rem;
+  width: 32rem;
+  border-radius: 50%;
+  background: #c9c9c9;
+  box-shadow: -5px 5px 10px #656565, 5px -5px 10px #ffffff;
+}
+
+meter {
+  width: 40rem;
+  height: 2.4rem;
+  border-radius: 8px;
+  outline: none;
+  margin: 2rem 0;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: rgb(13, 163, 250);
+  background: linear-gradient(
+    71deg,
+    rgba(13, 163, 250, 0.4500175070028011) 1%,
+    rgba(10, 133, 207, 1) 51%,
+    #18e3f1 97%
+  );
+}
+
+.section-control {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-control i {
+  font-size: 4rem;
+}
+
+.section-control div {
+  color: #4b4a4a;
+  padding: 1.6rem;
+  border-radius: 23px;
+  background: #e0e0e0;
+  box-shadow: -5px 5px 10px #d0d0d0, 5px -5px 10px #f0f0f0;
+}
+
+.section-control div:nth-child(2) {
+  color: #18e3f1;
+  border-radius: 23px;
+  background: #e0e0e0;
+  box-shadow: inset -5px 5px 10px #d0d0d0, inset 5px -5px 10px #f0f0f0;
+}
+
+hr {
+  height: 8px;
+  width: 50%;
+  margin: 4rem auto;
+  border: none;
+  border-radius: 4px;
+  background: #e0e0e0;
+  box-shadow: inset -2px 2px 4px #727272, inset 2px -2px 4px #ffffff;
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #f6f6ed;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+section {
+  flex-basis: 33.3%;
+}
+
+.section_title {
+  padding: 2rem;
+}
+
+.language-select {
+  display: flex;
+}
+
+.language-select p {
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 2.6rem 1rem;
+  font-weight: 900;
+}
+
+.language-select p:last-of-type {
+  color: #efefef;
+  background-color: black;
+}
+
+.section_title h1 {
+  font-size: 12rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section_title h2 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.section_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_img h3 {
+  margin-top: 12rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+.section_img h3::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f063";
+  font-weight: 900;
+  margin-right: 1rem;
+}
+
+img {
+  width: 42rem;
+}
+
+.section_reserve {
+  display: flex;
+  align-items: center;
+}
+
+.section_reserve h4 {
+  text-transform: uppercase;
+  margin-left: 22rem;
+  padding: 2rem;
+  color: #f6f6ed;
+  background-color: #000000;
+  border-radius: 2.8rem;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.section_reserve h4::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f061";
+  font-weight: 900;
+  margin-left: 1rem;
+}
+
+.section_reserve h4:hover {
+  color: #000000;
+  background-color: #f6f6ed;
+  border: 1px solid;
+}

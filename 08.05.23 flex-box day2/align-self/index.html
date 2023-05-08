@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .flex-container {
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90vh;
+        flex-wrap: wrap;
+      }
+      .flex-child {
+        border: 1px solid blue;
+        margin: 10px;
+        height: 60px;
+        width: 60px;
+        /* the next 3 lines is to center the text within the flex-child boxes */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .item5{
+        align-self: start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-child item1">item1</div>
+      <div class="flex-child item2">item2</div>
+      <div class="flex-child item3">item3</div>
+      <div class="flex-child item4">item4</div>
+      <div class="flex-child item5">item5</div>
+    </div>
+  </body>
+</html>

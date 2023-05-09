@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rosybrown;
+}
+
+.page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.page:nth-of-type(odd) {
+    background-color: mistyrose;
+}
+
+/* Form */
+:root {
+    --brand-color: #dc0000;
+    --brand-darker-color: #a50404;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.row-right-alined {
+    justify-content: flex-end;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    background-image: url(./images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.hero:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 100%;
+    content: '';
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+.hero-headline {
+    color: rgba(255,255,255,0.8);
+    text-shadow: 0 0 60px rgba(255,255,255,0.8),
+        0 0 30px rgba(0,0,0,0.9);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Inputs */
+.input-container {
+    display: flex;
+}
+
+.input-container:not(:last-child) .input-field {
+    margin-right: 16px;
+}
+
+.input-label {
+    background-color: var(--brand-color);
+    padding: 10px;
+    line-height: 1;
+    color: white;
+}
+
+.input-field {
+    border: 1px solid white;
+    padding: 8px 16px;
+}
+
+/* Form buttons */
+.button {
+    border: 1px solid var(--brand-color);
+    background-color: var(--brand-color);
+    margin-right: 16px;
+    padding: 8px 16px;
+    color: white;
+
+    transition: 0.3s;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+    transform: translateY(-1px);
+    background-color: var(--brand-darker-color);
+    border-color: var(--brand-darker-color);
+    cursor: pointer;
+}
+
+.button-secondary {
+    background-color: rgba(255,255,255,0.6);
+    color: var(--brand-color);
+}
+
+.button-secondary:hover {
+    background-color: rgba(255,255,255,0.8);
+}

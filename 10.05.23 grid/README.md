@@ -15,6 +15,7 @@
 ### resources:
 
 - [Complete guide for grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [`gap`](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
 - [`fr` unit](https://css-tricks.com/introduction-fr-css-unit/)
 - [Grid auto](https://css-tricks.com/almanac/properties/g/grid-auto-rows/)
 - [`minmax([min], [max])`](https://ishadeed.com/article/css-grid-minmax/)

@@ -1,0 +1,73 @@
+/* Original styles - don't edit these! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  background: url(bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg2 {
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Add your styles below here*/
+body {
+  background-color: hsl(0, 0%, 20%);
+  padding: 0.5em;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(4, auto); */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  gap: 0.5em;
+  grid-auto-rows: 50%;
+}
+
+.bg1,
+.bg2 {
+  /* height: 350px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bg3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg1 div,
+.bg2 div,
+.bg3 div {
+  color: #eee;
+  background-color: hwb(0 0% 100% / 0.7);
+  padding: 5px;
+  margin: 5px;
+}
+
+.bg1:active,
+.bg2:active {
+  /* box-shadow: top to bottom - left to right - blur - color */
+  box-shadow: inset 3px 3px 10px rgb(173, 173, 173),
+  inset -3px -3px 10px #fff;
+  border: 1px solid white;
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "description": "document-layout",
+  "scripts": {
+    "test": "jest  --runInBand --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "jest": "^28.1.0",
+    "puppeteer": "^14.1.0"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-layout-grid-document-layout",
+    "id": 315292389
+  }
+}

@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-template-areas: "header header header header header"
+                       "blog1  blog1  blog1  blog1  about"
+                       "blog1  blog1  blog1  blog1  pop"
+                       "blog2  blog2  blog2  blog2  pop"
+                       "blog2  blog2  blog2  blog2  follow"
+                       "blog2  blog2  blog2  blog2  ."
+                       "footer footer footer footer footer";
+  background-color: #F1F1F1;
+  gap: 20px;
+  padding: 20px;
+}
+
+header{
+  display: grid;
+  place-items: center;
+  grid-area: header; 
+}
+
+div, header, footer{
+  background-color: #fff;
+  padding: 20px;
+}
+
+body div:nth-child(2){
+ grid-area: blog1;
+}
+
+body div:nth-child(3){
+grid-area: blog2;
+}
+
+body div:nth-child(4){
+grid-area: about;
+}
+
+body div:nth-child(5){
+ grid-area: pop;
+}
+body div:nth-child(6){
+ grid-area: follow;
+ height: 150px;
+}
+footer{
+  display: grid;
+  place-items: center;
+  grid-area: footer;
+  height: 200px;
+}
+
+@media screen and (max-width: 600px )  {
+  body{
+    grid-template-areas: "header" "blog1" "blog2" "pop" "about" "follow" "footer";
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      /* transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 2s; */
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      margin-bottom: 20px;
+      transition: all 10s ease-in-out 1s;
+    }
+
+    .box:hover {
+      font-size: 35px;
+      width: 1000px;
+      height: 400px;
+    }
+
+    .circle {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      transition: all 2s;
+    }
+    .circle:hover {
+      background-color: rgba(255, 255, 0, 0.5);
+      border-radius: 50%;
+    }
+
+    img {
+      width: 100%;
+    }
+    .img-box {
+      width: 200px;
+      margin-top: 10px;
+      transition: all 2s;
+    }
+    .img-box:hover {
+      width: 400px;
+      filter: grayscale(100);
+    }
+   
+  </style>
+  <body>
+    <div class="box">hello world</div>
+    <div class="circle"></div>
+    <div class="img-box">
+      <img src="https://picsum.photos/200/200" alt="random" />
+    </div>
+  </body>
+</html>

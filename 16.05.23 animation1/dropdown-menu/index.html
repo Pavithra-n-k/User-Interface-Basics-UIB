@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      ul {
+        list-style: none;
+        background-color: rgb(245, 235, 220);
+        padding: 0;
+        transform: translateY(-300%);
+        transform-origin: top;
+        transition: all 1s;
+        /* transform: scaleY(0); */
+      }
+      .burger {
+        margin: 10px;
+        background-color: aqua;
+        border-radius: 3px;
+        width: 30px;
+        height: 30px;
+        display: grid;
+        place-items: center;
+        padding: 3px;
+        cursor: pointer;
+       
+      }
+      li {
+        border-bottom: 1px solid black;
+        padding: 5px;
+      }
+      header:hover + ul {
+        transform: translateY(35%);
+        /* transform: scaleY(1); */
+      }
+      header{
+        background-color: coral;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="burger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  background-color: #E0E5EC;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.buttons-container {
+    padding: 100px 50px;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    overflow: hidden;
+    width: 96px;
+    height: 96px;
+    background-color:#E0E5EC;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    margin-bottom: 48px;
+    margin-right: 48px;
+    color: #4D3252;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+
+
+
+    transition: box-shadow 0.3s, color 0.3s;
+  
+}
+
+button img {
+    height: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: inset -4px -4px 9px rgba(255,255,255, 0.5), inset 4px 4px 9px rgb(163,177,198,0.6);
+    color: hotpink;
+}

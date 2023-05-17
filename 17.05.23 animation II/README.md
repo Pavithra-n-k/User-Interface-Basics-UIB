@@ -36,4 +36,4 @@
 ### recording:
 
 [link](https://us02web.zoom.us/rec/share/ETjgiGCweJiODVvcx0KSLn3OBDQ_dcF2hSOfg3tdYzWka0WNn4E30PinFgROvZN0.VpmNTZsZVHjVwDdA)
-[How to approach an exercise (team collab)]()
+[How to approach an exercise (team collab)](https://us02web.zoom.us/rec/share/1WrQKvMOSFJIQNfdyevw4Q44iOfX40HWykcSmbH-x-lsKLxKTBJ-nStxrQgeu5Rz.ILwnA6E_dT0_K2ze)

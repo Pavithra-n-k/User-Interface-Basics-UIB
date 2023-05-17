@@ -1,0 +1,24 @@
+:root {
+    --primary-color: blue;
+    --common-box: 250px;
+    --secondary-box: 350px;
+    --common-border: 1px solid red;
+    --common-margin: calc(200px + 100px);
+}
+
+.container {
+    height: var(--common-box, --secondary-box, 300px);
+    width: var(--common-box);
+    border: 1px var(--primary-color) solid;
+    margin: var(--common-margin);
+}
+
+.box1 {
+    /* border: 1px red solid; */
+    border: var(--common-border);
+    /* height: calc(100% / 3);
+    width: calc(100% / 3); */
+    /* height: calc(100% - 100px); */
+    height: calc(var(--common-box) - 100px);
+    width: calc(var(--common-box) - 100px);
+}

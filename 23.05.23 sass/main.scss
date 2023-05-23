@@ -1,18 +1,36 @@
-$primary: rgb(180, 73, 91);
-$secondary: rgb(236, 134, 136);
-$spacer: 16px;
-$primary-font: "Pangolin";
+@use "variables";
+@use "nav";
 
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 
-
 body{
-    background-color: $secondary;
-    font-size: $spacer * 3;
-    color: $primary;
-    font-family: $primary-font;
+    background-color: variables.$secondary;
+    font-size: variables.$spacer * 3;
+    color: variables.$primary;
+    font-family: variables.$primary-font;
 }
+
+//applying style specifically to the divs and uls inside .box1 which is stronger than targeting the whole .box1
+
+.box1{
+
+    div{
+        font-weight: 900;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+
+    &:hover {
+      color: rgb(255, 81, 0);
+      cursor: pointer;
+    }
+    
+}
+
+
 
 
 

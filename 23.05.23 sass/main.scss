@@ -1,0 +1,18 @@
+$primary: rgb(180, 73, 91);
+$secondary: rgb(236, 134, 136);
+$spacer: 16px;
+$primary-font: "Pangolin";
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+
+body{
+    background-color: $secondary;
+    font-size: $spacer * 3;
+    color: $primary;
+    font-family: $primary-font;
+}
+
+
+

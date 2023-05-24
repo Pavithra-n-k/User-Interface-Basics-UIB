@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Container for centering things */
+.page {
+    height: 100vh;
+    background-color: mistyrose;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Another container for centering things, but inside an already centered smaller box! */
+.processing-container {
+    /* border: 1px solid red; */ /*Uncomment this to make more sense of the page structure! */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+/* Container for the animated images */
+.processing-item {
+    /* border: 1px solid blue; */ /*Uncomment this to make more sense of the page structure! */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    --animation-duration: 1s;
+    animation-duration: var(--animation-duration);
+}
+
+/* Animation for images to appear / disappear */
+@keyframes appear {
+    0% {
+        transform: scale(0.8) translateX(300%);
+        opacity: 0;
+    }
+
+    20% {
+        transform: scale(1.2) translateX(0) translateY(-5%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.2) translateX(0) translateY(5%);
+        opacity: 1;
+    }
+
+    80% {
+        transform: scale(1) translateX(0) translateY(0%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.8) translateX(-300%);
+        opacity: 0;
+    }
+}
+
+/* Animation for things to appear and stay there! */
+@keyframes appear-and-stay {
+    0% {
+        transform: scale(0.8) translateY(-300%);
+        opacity: 0;
+    }
+
+    20% {
+        transform: scale(1) translateY(15%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1) translateY(-15%);
+        opacity: 1;
+    }
+
+    80% {
+        transform: scale(1) translateY(5%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg) translateY(0%);
+        opacity: 1;
+    }
+}
+
+/* Each bouncing and appearing/disappearing icon will have their own animation settings! */
+.processing-item:nth-child(1) {
+    animation-name: appear;
+    animation-iteration-count: 1;
+}
+
+.processing-item:nth-child(2) {
+    animation-name: appear;
+    animation-iteration-count: 3;
+    animation-delay: calc(var(--animation-duration) * 1);
+}
+
+.processing-item:nth-child(3) {
+    animation-name: appear-and-stay;
+    animation-iteration-count: 1;
+    animation-delay: calc(var(--animation-duration) * 4);
+    animation-fill-mode: forwards;
+}
+
+/* The images inside the appearing/disappearing containers need some CSS too*/
+.processing-item img {
+    display: block;
+    width: 100px;
+}
+
+/* Below this we have a separate animation for the two labels below the images */
+@keyframes blinking-label {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* The blinking labels need a lot of positioning CSS to look perfect... many ways of doing this! */
+.processing-label {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    text-align: center;
+    animation-name: blinking-label;
+    animation-duration: 1s;
+}
+
+/* The 1st label hangsaround for a while.... */
+.processing-label:nth-of-type(1) {
+    animation-iteration-count: 4;
+}
+
+/* ... and the 2nd label will appear and stay after the 1st one is animated away */
+.processing-label:nth-of-type(2) {
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    animation-fill-mode: forwards; /* This one keeps the final label around after the animation ends :) */
+}
+
+
+
+
+
+
+
+
+
+/*
+
+🦆
+
+You found the secret duck! 
+
+*/

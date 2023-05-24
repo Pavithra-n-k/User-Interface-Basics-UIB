@@ -1,0 +1,19 @@
+{
+  "name": "uib_interaction_animations_processing_files",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --runInBand --forceExit"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "dependencies": {
+    "jest": "^28.1.0",
+    "puppeteer": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB_interaction_animations_processing_files",
+    "id": 223262405
+  }
+}

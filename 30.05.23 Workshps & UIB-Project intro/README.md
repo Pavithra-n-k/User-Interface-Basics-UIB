@@ -18,7 +18,7 @@ this week (Tue-Wed-Thu) is going to be for workshops (feel free to start thinkin
 
 ## Today:
 
-- quick recap, github
+- quick recap, github, DCI boilerplate
 
 # UIB Group Project:
 
